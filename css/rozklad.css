@@ -1,0 +1,29 @@
+
+.kurs {
+    height: 450px;
+}
+
+.rozklad {
+    background-color: #313842;
+    padding: 70px 0;
+}
+
+.rozklad_wrap img {
+    width: 50%;
+    height: 80%;
+    text-align: center;
+}
+
+h2 {
+        position: relative;
+    top: 0px;
+    color: burlywood;
+}
+
+h1 {
+        text-transform: uppercase;
+    text-align: left;
+    /* text-align: center; */
+    color: #D2F1FF;
+    margin-top: 0;
+}

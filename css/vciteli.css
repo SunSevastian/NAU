@@ -1,0 +1,131 @@
+
+
+
+h2 {
+
+    position: relative;
+    top:0px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 100px 0 0;   
+    color:#adadad;
+    letter-spacing: 0.3em;
+    margin-bottom: 50px;
+}
+.item i{
+    position: absolute;
+    top:50%;
+    left:46.5%;
+    color:#F7811A;
+    font-size: 30px;
+    opacity: 0;
+    transition:all .4s;
+    transform: scale(0);
+}
+.item:hover i{
+    opacity: 1;
+    transform: scale(1);
+    
+}
+
+.admin_block {
+    max-height: 500px;
+}
+
+.karto4ka img {
+    width: 100%;
+    height: 250px;
+  
+}
+.karto4ka p{
+    text-align: center;
+    margin: 0;
+    background-color: #0a3646;
+    font-style: italic;
+    color:#d9d9d9;
+    margin-bottom: 20px;
+}
+h3{
+    position: relative;
+    background-color: #0a3646;
+    text-align: center;
+    margin: 0;
+    padding: 0;   
+    color:#e5edfa;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    
+}
+.info_adm span{
+    padding-left: 80px;
+    display: block;
+    
+}
+.podr_descr .osebe{
+    padding-left: 0;
+}
+.podr_descr .oput:before{
+    content: 'Стаж:';
+    left:10px;
+    color: #478db9;
+    position: absolute;
+    
+}
+.podr_descr{
+    position: relative;
+}
+.podr_descr .contact:before{
+    left:10px;
+    content: 'Контакт:';
+    color: #478db9;
+    position: absolute;
+   
+}
+.about_administraciya {
+    margin-bottom: 50px;
+}
+/*.info_adm .certa:before{
+    content: '';
+    width: 250px;
+    height: 2px;
+    background-color: #aaa9a9;
+    position: absolute;
+    bottom: -25px;
+    left:15px;
+}*/
+.podr_descr {
+    background-color: #fff;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.podr_descr p {
+
+ margin-left: 100px;
+   
+}
+.osebe p{
+    margin-left: 0;
+}
+.podr_descr h3{
+   padding: 0;
+}
+.podr_descr img{
+    width: 100%;
+    height: 300px;
+/*    z-index: */
+}
+/*.podr_descr p{}*/
+
+.podr_descr .dolznost {
+     text-align: center;
+    margin: 0;
+    background-color: #a3a3a3;
+    font-style: italic;
+    color:#555555;
+    padding: 0;
+}
+.podr_descr p{
+    padding: 0 10px;
+}
